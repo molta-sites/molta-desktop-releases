@@ -24,7 +24,7 @@ sha256sum -c SHA256SUMS --ignore-missing
 Windows (PowerShell):
 
 ```
-Get-FileHash .\Molta_0.1.0_x64-setup.exe -Algorithm SHA256
+Get-FileHash .\Molta_0.2.0_x64-setup.exe -Algorithm SHA256
 ```
 
 The printed hash must match the line for that file in `SHA256SUMS`.
